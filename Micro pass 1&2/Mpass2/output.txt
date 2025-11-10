@@ -1,0 +1,13 @@
+START 100
+READ N1
+READ N2
+mover	N2	
+add	N2	N1	
+movem	N2	
+mover	CREG	
+sub	
+movem	CREG	
+STOP
+N1 DS 1
+N2 DS 1
+END

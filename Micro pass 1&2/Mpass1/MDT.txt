@@ -1,0 +1,10 @@
+	incr	&x	&y	&reg1	="areg"
+	mover	#2	#0
+	add	#2	#1
+	movem	#2	#0
+	mend
+	decr	&a	&b	&reg	="breg"
+	mover	#5	#3
+	sub	#5	#4
+	movem	#5	#3
+	mend
